@@ -105,6 +105,48 @@ body {
     border: none;
 }
 
+.manfaat {
+    margin-top: 70px;
+}
+
+.manfaat h1 {
+    font-weight: 500;
+    font-size: 36px;
+    color: #152C5B;
+    text-align: center;
+}
+
+.garis-bawah-manfaat {
+    width: 177px;
+    height: 0px;
+    border: 3px solid #138EE9;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-left: 42%;
+}
+
+.manfaat h6 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #152C5B;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.manfaat p {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #C4C4C4;
+    margin-top: 20px;
+}
+
+.manfaat img {
+    width: 120px;
+    margin-left: 35%;
+    margin-top: 40px;
+}
 
 /* Ukuran Mobile */
 @media only screen and (max-width: 768px) {
@@ -166,6 +208,10 @@ body {
         margin-left: 0;
         margin-top: 20px;
         border: none;
+    }
+
+    .garis-bawah-manfaat {
+        margin-left: 31%;
     }
 }
 
